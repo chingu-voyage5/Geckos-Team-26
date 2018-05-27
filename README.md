@@ -4,6 +4,11 @@
 
 This is a colaborative project as a part of Chingu Cohort | Voyage-5. To create a Web App of which the purpose is to give the user an abliity to build quizess which then can be shared with other users to test their knowledge based on provided topic.
 
+## Design 
+
+<p align="center">
+  <img src="https://preview.ibb.co/c9eryJ/Main.png" width="640"/>
+</p>
 
 ### To-Do / Roadmap
 
