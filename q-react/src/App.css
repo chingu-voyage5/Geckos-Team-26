@@ -1,0 +1,94 @@
+html,
+body,
+#root {
+  font-family: 'Lato', sans-serif;
+}
+
+body,
+.App {
+  background: #F2F2F2;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  max-height: 650px;
+  justify-content: center;
+  align-items: flex-start;
+  /* margin-bottom: 280px; */
+  /* border: 2px solid yellowgreen; */
+  background: linear-gradient(to bottom, rgba(255, 179, 14, 0.3), rgba(194, 153, 40, 0.3)), url(./img/trianglify.svg);
+  background-color: rgba(194, 153, 40);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 60px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  background-color: rgba(194, 153, 40, 0.8);
+}
+
+.nav a {
+  color: rgb(242, 242, 242);
+}
+
+.nav-inner {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid rgb(245, 0, 74); */
+  width: 100%;
+  align-items: center;
+}
+
+.logo {
+  flex: 1;
+  font-size: 34px;
+  font-weight: 700;
+  /* border: 1px solid black; */
+  margin-left: 12px;
+}
+
+.logo span {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.text-right {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.text-right > * {
+  margin: 0 12px;
+}
+
+.user-icon {
+  font-size: 22px;
+  margin-right: 6px;
+}
+
+/* .hero-image {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 650px;
+  background-color: rgb(194, 153, 40);
+  background: linear-gradient(to bottom, rgba(255, 179, 14, 0.3), rgba(194, 153, 40, 0.29)), url(./img/trianglify.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+} */
+
+
