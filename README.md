@@ -15,6 +15,16 @@ This is a colaborative project as a part of Chingu Cohort | Voyage-5. To create 
   <img src="https://preview.ibb.co/hdsgyJ/Quizes.png" width="640"/>
 </p>
 
+##### Quiz
+<p align="center">
+  <img src="https://preview.ibb.co/jTtKnd/Quiz_Page.png" width="640"/>
+</p>
+
+##### Log-In/Sign Up
+<p align="center">
+  <img src="https://preview.ibb.co/hJbB0y/Login.png" width="640"/>
+</p>
+
 ### To-Do / Roadmap
 
 - [x] Design general sketch and layout of the page
