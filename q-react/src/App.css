@@ -13,16 +13,20 @@ a {
   text-decoration: none;
 }
 
-.header {
+/* ------------------------------------ */
+/* -------------HEADER/HERO------------ */
+/* ------------------------------------ */
+
+.hero {
   display: flex;
   flex-wrap: wrap;
   height: 100vh;
   max-height: 650px;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   /* margin-bottom: 280px; */
   /* border: 2px solid yellowgreen; */
-  background: linear-gradient(to bottom, rgba(255, 179, 14, 0.3), rgba(194, 153, 40, 0.3)), url(./img/trianglify.svg);
+  background: linear-gradient(to bottom, rgba(255, 179, 14, 0.49), rgba(194, 153, 40, 0.1)), url(./img/trianglify.svg);
   background-color: rgba(194, 153, 40);
   background-size: cover;
   background-position: center bottom;
@@ -79,16 +83,86 @@ a {
   margin-right: 6px;
 }
 
-/* .hero-image {
-  position: absolute;
-  z-index: -1;
-  width: 100%;
-  height: 650px;
-  background-color: rgb(194, 153, 40);
-  background: linear-gradient(to bottom, rgba(255, 179, 14, 0.3), rgba(194, 153, 40, 0.29)), url(./img/trianglify.svg);
-  background-size: cover;
+.hero-left {
+  width: 50%;
+  color: #424241;
+  /* border: 1px solid black; */
+}
+
+.hero-left h1 {
+  font-size: 96px;
+}
+
+.hero-left h1 span {
+  width: 50%;
+  font-size: 72px;
+  font-weight: 300;
+}
+
+.hero-left p {
+  font-size: 36px;
+  margin-top: -1.8em;
+}
+
+.sign-up-btn {
+  height: 190px;
+  width: 300px;
+  padding: 12px;
+  border-radius: 12px;
+  background: #64613E;
+}
+
+.hero-right {
+  margin-top: 42em;
+  /* border: 1px solid black; */
+}
+
+.note-image {
+  height: 462px;
+  width: 466.39px;
+  background-image: url(./img/note.svg);
+  background-size: contain;
+}
+
+/* ------------------------------------ */
+/* -------------- INTRO  -------------- */
+/* ------------------------------------ */
+
+.intro-content {
+  display: flex;
+  flex-wrap: wrap;
+  /* height: 100vh; */
+  height: 550px;
+  justify-content: center;
+  margin-top: 40px;
+  color: #424241;
+}
+
+.intro-left {
+  width: 50%;
+}
+
+.intro-left h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.intro-left p {
+  font-size: 24px;
+  font-weight: 300;
+  width: 410px;
+  line-height: 1.39;
+}
+
+.triangles-art {
+  width: 330px;
+  height: 90px;
+  background-image: url(./img/Triangles.svg);
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: center top;
-} */
+}
 
-
+.intro-right {
+  width: 400px;
+}
