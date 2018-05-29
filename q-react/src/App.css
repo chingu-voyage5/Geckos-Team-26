@@ -104,12 +104,18 @@ a {
   margin-top: -1.8em;
 }
 
-.sign-up-btn {
-  height: 190px;
-  width: 300px;
+.sign-up-button {
+  margin-top: 2.5em;
+  height: 40px;
+  width: 200px;
+  font-size: 30px;
+  font-weight: 300;
   padding: 12px;
   border-radius: 12px;
   background: #64613E;
+  text-align: center;
+  color: #F2F2F2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .hero-right {
@@ -134,7 +140,7 @@ a {
   /* height: 100vh; */
   height: 550px;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 3.5em;
   color: #424241;
 }
 
@@ -164,5 +170,38 @@ a {
 }
 
 .intro-right {
-  width: 400px;
+  margin-top: 19em;
+  width: 500px;
+}
+
+.create-button, .explore-button {
+  display: inline-block;
+  height: 40px;
+  width: 180px;
+  font-size: 26px;
+  font-weight: 300;
+  padding: 12px;
+  border-radius: 12px;
+  background: #FFB30E;
+  text-align: center;
+  color: #424241;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-left: .9em;
+}
+
+/* ------------------------------------ */
+/* -------------- FOOTER -------------- */
+/* ------------------------------------ */
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  background: #424241;
+  position: absolute;
+  color: #BDBDBD;
+  font-size: 12px;
+  padding: 0 21px;
 }
