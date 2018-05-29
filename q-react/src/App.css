@@ -200,8 +200,8 @@ a {
   height: 60px;
   width: 100%;
   background: #424241;
-  position: absolute;
+  /* position: absolute; */
   color: #BDBDBD;
   font-size: 12px;
-  padding: 0 21px;
+  /* padding: 0 21px; */
 }
