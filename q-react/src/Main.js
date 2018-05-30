@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import { Link } from 'react-router-dom';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import {faUser} from '@fortawesome/fontawesome-free-solid';
+//import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+//import {faUser} from '@fortawesome/fontawesome-free-solid';
 import './App.css';
 import trianglify from './img/trianglify.svg';
 import note from './img/note.svg';
@@ -17,7 +17,6 @@ const Main = () => {
             <Link to='/quizes'>Quizes</Link>
             <Link to='/create'>Create Quiz</Link>
             <Link to='/about'>About</Link>
-            <a href='#' onClick='FUNCTION TO OPEN DROPDOWN TO SIGN IN OR SIGN UP'><FontAwesomeIcon className='user-icon' icon={faUser} /></a>
           </div>
         </div>
       </div> {/***** END NAVBAR *****/}
