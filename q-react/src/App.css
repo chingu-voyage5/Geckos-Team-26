@@ -2,6 +2,7 @@ html,
 body,
 #root {
   font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
 }
 
 body,
@@ -20,10 +21,10 @@ a {
 .hero {
   display: flex;
   flex-wrap: wrap;
-  height: 100vh;
-  max-height: 650px;
+  /* height: 100vh; */
+  height: 650px;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   /* margin-bottom: 280px; */
   /* border: 2px solid yellowgreen; */
   background: linear-gradient(to bottom, rgba(255, 179, 14, 0.49), rgba(194, 153, 40, 0.1)), url(./img/trianglify.svg);
@@ -84,6 +85,7 @@ a {
 }
 
 .hero-left {
+  margin-top: 6em;
   width: 50%;
   color: #424241;
   /* border: 1px solid black; */
@@ -119,7 +121,7 @@ a {
 }
 
 .hero-right {
-  margin-top: 42em;
+  margin-top: 26.9em;
   /* border: 1px solid black; */
 }
 
