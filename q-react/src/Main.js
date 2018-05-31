@@ -50,7 +50,7 @@ const Main = () => {
       </div>
     </section> {/***** END INTRO *****/}
     <footer className='footer'>
-    Design & Code © 2018 by Chingu-Geckos-26   
+    <p>Design & Code © 2018 by Chingu-Geckos-26</p>   
     </footer>
     </Fragment>
   )

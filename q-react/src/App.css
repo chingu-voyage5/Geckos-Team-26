@@ -182,7 +182,7 @@ a {
   width: 180px;
   font-size: 26px;
   font-weight: 300;
-  padding: 12px;
+  padding: 19px 9px 9px;
   border-radius: 12px;
   background: #FFB30E;
   text-align: center;
@@ -206,4 +206,8 @@ a {
   color: #BDBDBD;
   font-size: 12px;
   /* padding: 0 21px; */
+}
+
+.footer > p {
+  margin-left: 2em;
 }
