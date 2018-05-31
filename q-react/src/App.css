@@ -208,7 +208,17 @@ a {
   /* padding: 0 21px; */
 }
  
-form-wrapper    {
-  border: 2px solid red;
-  
+ /* ------------------------------------ */
+/* -------------- FORM -------------- */
+/* ------------------------------------ */
+
+.formContainer    {
+  margin-top: 70px;
+  border: 1px solid green;
+  padding: 1.3em;
+  background-color: orange;
 } 
+
+.formHeader   {
+  margin-bottom: 2em;
+}
