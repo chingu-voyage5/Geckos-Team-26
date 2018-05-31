@@ -197,11 +197,18 @@ a {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
+  text-align: center;
   height: 60px;
   width: 100%;
   background: #424241;
   /* position: absolute; */
   color: #BDBDBD;
-  font-size: 12px;
+  font-size: 13px;
   /* padding: 0 21px; */
 }
+ 
+form-wrapper    {
+  border: 2px solid red;
+  
+} 
