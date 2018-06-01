@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import {faUser} from '@fortawesome/fontawesome-free-solid';
 import './App.css';
+import MainHeader from './MainHeader';
+import Footer from './Footer'
 import trianglify from './img/trianglify.svg';
 import note from './img/note.svg';
 
@@ -10,17 +12,7 @@ const Main = () => {
   return (
     <Fragment>
     <div className='hero'>
-      <div className='nav'>
-        <div className='nav-inner'>
-          <Link to='/' className='logo'>Q.<span>me</span></Link>
-          <div className='text-right'>
-            <Link to='/quizes'>Quizes</Link>
-            <Link to='/create'>Create Quiz</Link>
-            <Link to='/about'>About</Link>
-            <a href='#' onClick='FUNCTION TO OPEN DROPDOWN TO SIGN IN OR SIGN UP'><FontAwesomeIcon className='user-icon' icon={faUser} /></a>
-          </div>
-        </div>
-      </div> {/***** END NAVBAR *****/}
+      <MainHeader /> {/***** NAVBAR *****/}
       <div className='hero-left'>
         <h1>Q.<span>me</span></h1>
         <p>Welcome to the universal Quiz platform</p>
@@ -49,9 +41,7 @@ const Main = () => {
         </div>
       </div>
     </section> {/***** END INTRO *****/}
-    <footer className='footer'>
-    <p>Design & Code © 2018 by Chingu-Geckos-26</p>   
-    </footer>
+    <Footer />
     </Fragment>
   )
 }

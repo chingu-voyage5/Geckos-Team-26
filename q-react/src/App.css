@@ -14,6 +14,22 @@ a {
   text-decoration: none;
 }
 
+/* CHANGE THE DEFAULT PLACEHOLDER FORMS TEXT */
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #828282;
+  padding-left: 6px;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #828282;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #828282;
+}
+
 /* ------------------------------------ */
 /* -------------HEADER/HERO------------ */
 /* ------------------------------------ */
@@ -210,4 +226,55 @@ a {
 
 .footer > p {
   margin-left: 2em;
+}
+
+/* ------------------------------------ */
+/* -----------SIGH-UP/LOG-IN----------- */
+/* ------------------------------------ */
+
+.nav .close-icon {
+  font-size: 36px;
+}
+
+.sign-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(255, 179, 14, 0.49), rgba(194, 153, 40, 0.1)), url(./img/trianglify.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.sign-up-component {
+  display: flex;
+  justify-content: center;
+  padding: 10px; 
+  width: 300px;
+  background-color: #64613E;
+  border-radius: 12px;
+}
+
+.sign-details > input {
+  margin-bottom: 8px;
+  width: 100%;
+  height: 36px;
+  border: none;
+  border-radius: 6px;
+}
+
+.sign-up-submit {
+  height: 50px;
+  width: 200px;
+  display: block;
+  margin: 6px auto;
+  font-size: 30px;
+  font-weight: 300;
+  border-radius: 12px;
+  background: #FFB30E;
+  text-align: center;
+  color: #424241;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
