@@ -258,10 +258,13 @@ a {
 
 .sign-details > input {
   margin-bottom: 8px;
-  width: 100%;
+  width: 99%;
   height: 36px;
   border: none;
   border-radius: 6px;
+  font-size: 26px;
+  font-weight: 300;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .sign-up-submit {
