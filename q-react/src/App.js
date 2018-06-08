@@ -3,6 +3,7 @@ import { Route } from 'react-router-dom';
 import './App.css';
 import Main from './Main';
 import SignUp from './SignUp';
+import About from './About';
 
 
 class App extends Component {
@@ -15,6 +16,10 @@ class App extends Component {
       />
       <Route path='/sign-up' render={() => (
         <SignUp />
+      )}
+      />
+      <Route path='/about' render={() => (
+        <About />
       )}
       />
       </div>
