@@ -205,3 +205,12 @@ a {
   font-size: 12px;
   /* padding: 0 21px; */
 }
+
+/*----- ABOUT PAGE -----*/
+
+.user-icon {
+  height: 162px;
+  width: 162px;
+  background-image: url(./img/user-icon.svg);
+  background-size: contain;
+}
