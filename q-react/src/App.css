@@ -2,6 +2,7 @@ html,
 body,
 #root {
   font-family: 'Lato', sans-serif;
+  height: 100%;
 }
 
 body,
@@ -142,6 +143,7 @@ a {
   justify-content: center;
   margin-top: 3.5em;
   color: #424241;
+  align-content: center;
 }
 
 .intro-left {
@@ -208,9 +210,25 @@ a {
 
 /*----- ABOUT PAGE -----*/
 
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.header > h2 {
+  font-size: 70px;
+  
+}
+
 .user-icon {
   height: 162px;
   width: 162px;
   background-image: url(./img/user-icon.svg);
   background-size: contain;
+}
+
+h3 {
+  font-size: 32px;
 }

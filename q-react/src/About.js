@@ -9,10 +9,13 @@ import icon from './img/user-icon.svg';
 export default class About extends Component {
     render() {
         return (
-            <div>
-                <div className='triangles-art'></div>
-               
-                <h2>About</h2>
+            <div className='container'>
+                <div className='header'>
+                    <h2>About</h2>
+                </div>
+                <div class='about-triangles'>
+                    <div className='triangles-art'></div>
+                </div>
                 <h3>What is Quizzical?</h3>
                 <p>Vel id posse accusata. Pri numquam epicurei ad, eu vis libris essent</p>
                 <p>pertinacia, erat feugiat liberavisse eu vix. Ei eros reque dissentiet mei.</p>
