@@ -17,7 +17,7 @@ class SignUp extends Component {
             <input type='text' name='username' placeholder='Username' />
             <input type='text' name='email' placeholder='Email' />
             <input type='text' name='password' placeholder='Password' />
-            <button className='sign-up-submit'>Sign Up</button>
+            <button className='sign-up-submit' onClick={this.props.onSignUp} >Sign Up</button>
           </div>
         </form>
       </div>

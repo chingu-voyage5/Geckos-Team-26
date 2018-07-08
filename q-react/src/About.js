@@ -1,13 +1,13 @@
 import React, { Fragment } from 'react'
 import './App.css';
-import MainHeader from './MainHeader';
+import Header from './Header';
 import Footer from './Footer';
 
 
 const About = () => {
   return (
     <Fragment>
-      <MainHeader />
+      <Header />
     <div>
        <h1> Eloooo wordl!</h1>
     </div>

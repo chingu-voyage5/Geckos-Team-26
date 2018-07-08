@@ -14,8 +14,13 @@ class App extends Component {
         <Main />
         )}
       />
-      <Route path='/sign-up' render={() => (
-        <SignUp />
+      <Route path='/sign-up' render={({ history }) => (
+        <SignUp 
+          onSignUp={member => {
+            // this.createMember(member)
+            history.push('/')
+          }}
+          />
       )}
       />
       <Route path='/about' render={() => (
