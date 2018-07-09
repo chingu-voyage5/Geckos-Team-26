@@ -4,6 +4,7 @@ import './App.css';
 import Main from './Main';
 import SignUp from './SignUp';
 import About from './About';
+import CreateQuiz from './CreateQuiz';
 
 
 class App extends Component {
@@ -25,6 +26,10 @@ class App extends Component {
       />
       <Route path='/about' render={() => (
         <About />
+      )}
+      />
+      <Route path='/create' render={() => (
+        <CreateQuiz />
       )}
       />
       </div>
